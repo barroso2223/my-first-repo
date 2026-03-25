@@ -3,11 +3,11 @@
  * These are outside the DOMContentLoaded so 'onclick' in HTMl can find immediately
  */
 
-const myProjects = [
-  {
-    title: 
-  }
-]
+// const myProjects = [
+//   {
+//     title:
+//   }
+// ]
 
 const openModal = (src) => {
   const imgModal = document.querySelector("#imgModal");
@@ -21,7 +21,7 @@ const openModal = (src) => {
 
 const closeModal = () => {
   const imgModal = document.querySelector("#imgModal");
-  const modalImg = document.querySelector("#modalimg");
+  const modalImg = document.querySelector("#modalImg");
 
   if (imgModal && modalImg) {
     imgModal.classList.remove("show");
@@ -31,8 +31,6 @@ const closeModal = () => {
     }, 300);
   }
 };
-
-
 
 /**
  * 2. Main Application logic

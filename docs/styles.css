@@ -93,6 +93,7 @@ hr {
   padding: 3rem;
   width: 100%;
   min-height: 100vh;
+  padding-top: 90px;
 }
 
 /* Section Settings */
@@ -312,6 +313,7 @@ article h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 30px;
 }
 
 .modContainer {
@@ -351,6 +353,7 @@ article h3 {
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .modCard:hover {
